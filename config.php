@@ -1,13 +1,6 @@
 <?php
-$host = 'localhost';
-$dbname = 'product_reviews';
-$username = 'root';
-$password = '';
+// Configuration settings
+define('OPENAI_API_KEY', 'sk-proj-00000000000000000000000000000000'); // Replace with your actual OpenAI API key
 
-try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
-}
+// You can add more configuration settings here if needed
 ?> 
