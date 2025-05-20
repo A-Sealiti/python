@@ -1,0 +1,17 @@
+# Configuratie bestanden met gevoelige informatie
+config/config.php
+config/.api_key.php
+
+# PHP bestanden die niet in de repository horen
+*.log
+.env
+.config.php
+
+# IDE bestanden
+.vscode/
+.idea/
+*.sublime-*
+
+# Systeem bestanden
+.DS_Store
+Thumbs.db 
